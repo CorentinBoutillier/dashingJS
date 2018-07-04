@@ -24,3 +24,15 @@ script:
   - export CHROME_BIN=chromium-browser
   - xvfb-run -a npm run test -- --single-run --no-progress --browser=ChromeNoSandbox
   - xvfb-run -a npm run e2e -- --no-progress --config=protractor-ci.conf.js
+
+after_success:
+  - npm run coveralls
+  - npm run build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
