@@ -1,6 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/TeQno/dashingJS/badge.svg?branch=master)](https://coveralls.io/github/TeQno/dashingJS?branch=master)
-
-[![Build Status](https://travis-ci.org/TeQno/dashingJS.svg?branch=master)](https://travis-ci.org/TeQno/dashingJS)
+[![Coverage Status](https://coveralls.io/repos/github/TeQno/dashingJS/badge.svg?branch=master)](https://coveralls.io/github/TeQno/dashingJS?branch=master) [![Build Status](https://travis-ci.org/TeQno/dashingJS.svg?branch=master)](https://travis-ci.org/TeQno/dashingJS)
 
 # DashingJS
 
