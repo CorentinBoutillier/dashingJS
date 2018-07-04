@@ -8,7 +8,16 @@ module.exports = function(karma){
       "src/**.js",         // your package.json is scanned and they will be automatically
       "test/**-test.js"    // prepended to this array.
     ],
-
+    coverageIstanbulReporter: {
+      reports: [ 'html', 'lcovonly' ],
+      fixWebpackSourcePaths: true,
+      thresholds: {
+        statements: 80,
+        lines: 80,
+        branches: 80,
+        functions: 80
+      }
+    }
     browsers: ['Chrome'],
     customLaunchers: {
       ChromeNoSandbox: {
