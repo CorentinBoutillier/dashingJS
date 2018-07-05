@@ -1,6 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@charset "UTF-8";
+
 @import "variables";
+@import "~bourbon/core/bourbon";
 
 body, html {
   background-color: $bg-color;
+  font-family: $font-stack-verdana;
+  color : $text-default-color;
 }
