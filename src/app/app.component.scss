@@ -1,11 +1,16 @@
-@import "../sass/variables";
-@import "~bourbon/core/bourbon";
+
+@import "../sass/tools";
 
 h1 {
-  color: $text-default-color;
+  color: $info;
   @include border-style(dashed null solid);
 }
 
 h2 {
+  color: $warning;
   @include ellipsis;
+}
+
+a {
+  color: $danger;
 }
