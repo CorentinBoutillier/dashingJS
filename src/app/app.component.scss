@@ -1,6 +1,6 @@
 @import '../sass/tools';
 
-h1 {
-  color: $info;
-  @include border-style(dashed null solid);
+:host {
+  width: 100vw;
+  height: 100vh;
 }
