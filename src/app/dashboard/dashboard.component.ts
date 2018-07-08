@@ -20,6 +20,6 @@ export class DashboardComponent implements OnInit {
     this.config = this.dashboardGridsterConfigService.getConfig();
     this.items = environment.dashingjsConfig.items;
   }
-  
+
 }
 
