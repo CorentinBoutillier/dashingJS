@@ -5,6 +5,7 @@ import {DashboardRouteModule} from "./dashboard.route";
 import {GridsterModule} from "angular-gridster2";
 import {DashboardGridsterConfigService} from "./dashboard-gridster-config.service";
 
+
 @NgModule({
   imports: [
     CommonModule,
