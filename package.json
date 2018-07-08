@@ -28,6 +28,7 @@
     "@angular/platform-browser-dynamic": "^6.0.0",
     "@angular/router": "^6.0.0",
     "angular": "^1.7.2",
+    "angular-gridster2": "^6.0.5",
     "angular-route": "^1.7.2",
     "bootstrap": "^4.1.1",
     "bourbon": "^5.0.1",
