@@ -13,12 +13,13 @@ export class DashboardComponent implements OnInit {
 
   public config: GridsterConfig;
   public items: Array<DashingjsGridsterItem>;
+
   constructor(private dashboardGridsterConfigService: DashboardGridsterConfigService) { }
 
   ngOnInit() {
     this.config = this.dashboardGridsterConfigService.getConfig();
     this.items = environment.dashingjsConfig.items;
   }
-
+  
 }
 
