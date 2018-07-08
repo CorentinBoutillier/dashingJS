@@ -1,0 +1,19 @@
+@import '../../sass/tools';
+
+:host {
+  gridster {
+    background-color: transparent;
+
+    > gridster-item {
+      background-color: $gray-700;
+
+      > .item-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
