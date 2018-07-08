@@ -29,5 +29,5 @@ export class DashboardComponent implements OnInit {
       {cols: 1, rows: 1, y: 0, x: 0}
     ]
   }
-
+  
 }
