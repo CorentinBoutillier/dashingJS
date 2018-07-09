@@ -16,6 +16,7 @@ import { WidgetGiphyComponent } from './widgets/widget-giphy/widget-giphy.compon
   declarations: [DashboardComponent, WidgetContainerComponent, WidgetHostDirective, HelloWorldComponent, WidgetGiphyComponent],
   providers: [DashboardGridsterConfigService],
   entryComponents: [HelloWorldComponent, WidgetGiphyComponent]
+
 })
 
 export class DashboardModule { }

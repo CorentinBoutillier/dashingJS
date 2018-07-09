@@ -21,6 +21,7 @@ export class WidgetContainerComponent implements OnInit {
     const componentFactory = this.componentFactoryResolver.resolveComponentFactory(this.data.widget.component);
     const componentRef = this.widgetHostDirective.viewContainerRef.createComponent(componentFactory);
     (<DashingjsGridsterItem>componentRef.instance).data = this.data;
+
   }
 
   ngOnInit() {

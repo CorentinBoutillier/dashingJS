@@ -17,6 +17,7 @@ const dashingjsConfig: DashingjsConfig = {
     { cols: 1, rows: 1, y: 0, x: 0, widget: { component: WidgetGiphyComponent, params: { q: 'funny silicon valley' }, icon: 'fa fa-bitcoin', class: 'bg-dark' } },
     { cols: 1, rows: 1, y: 0, x: 0, widget: { component: WidgetGiphyComponent, params: { q: 'funny silicon valley' }, icon: 'fa fa-download', class: 'bg-white text-dark' } },
     { cols: 1, rows: 1, y: 0, x: 0, widget: { component: WidgetGiphyComponent, params: { q: 'funny silicon valley' }, icon: 'fi flaticon-github', class: 'bg-primary' } }
+
   ]
 };
 export const environment = {

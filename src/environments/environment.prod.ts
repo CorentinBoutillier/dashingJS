@@ -2,6 +2,7 @@ import { DashingjsConfig } from '../app/dashboard/interfaces/dashingjs-config';
 import {HelloWorldComponent} from "../app/dashboard/widgets/hello-world/hello-world.component";
 import {WidgetGiphyComponent} from "../app/dashboard/widgets/widget-giphy/widget-giphy.component";
 
+
 const dashingjsConfig: DashingjsConfig = {
   items: [
     { cols: 1, rows: 2, y: 0, x: 0, widget: { component: HelloWorldComponent, icon: 'fa fa-magic', class: 'bg-primary' } },
