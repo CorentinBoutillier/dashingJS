@@ -1,0 +1,15 @@
+
+:host{
+  height: 100%;
+
+  img{
+    height: 100%;
+  }
+
+  small{
+    position: absolute;
+    z-index: 1;
+    bottom: 5px;
+    right: 5px;
+  }
+}
